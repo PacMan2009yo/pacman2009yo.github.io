@@ -14,7 +14,7 @@
     $HWID = getallheaders()["Syn-Fingerprint"];
     
     // This method is really bad, use arrays.
-    if ($Key == '1234567890' and $HWID == 'a3cd4157c5d0ddccf16a3c0a81253aa4cef34dfd3bd3dbf9d98036f4a0aab304908e93475112a4b7d7477c41355b426fd3012444760686ef842893e9dd9f478c') {
+    if ($Key == '1234567890' and $HWID == 'd0a5102a78f69a74e26fabbca4c9dee21425aca560ac71f459f43b8b5bc0065d2636c53a23e4da55b8b9b43893cf7e781d22d5e295f30909df9757eac211cd99') {
         echo base64_encode($Key);
     } else {
         echo rString(rand(1, 999));
